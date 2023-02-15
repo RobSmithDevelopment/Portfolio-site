@@ -42,12 +42,17 @@ a:hover {
 }
 
 @media only screen and (max-width: 600px) {
-  .nav-li {
-    display: none;
-  }
-
   .nav-menu {
     display: block;
     margin-right: 2rem;
   }
+
+  .nav-links {
+    display: none; /* Hide the links by default */
+  }
+  
+  .nav-links.open {
+    display: block; /* Display the links when the "open" class is present */
+  }
+  
 }
