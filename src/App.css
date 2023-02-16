@@ -77,10 +77,16 @@ a:hover {
 }
 
 .main-text-button {
+  color: black;
   font-size: 2rem;
   cursor: pointer;
-  margin-top: 10px;
+  margin-top: 20px;
   padding: 25px;
+}
+/* arrow icon from icons8:  https://icons8.com/icon/U7QCbaJeSJ1W/right-arrow */
+.main-arrow {
+  margin-left: 10px;
+  vertical-align: middle;
 }
 
 .vl {
