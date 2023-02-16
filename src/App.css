@@ -1,8 +1,14 @@
+/* full page styling */
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
 body {
   height: 100%;
   width: 100%;
 }
-
+/* navbar styling */
 .nav-container {
   display: flex;
   justify-content: space-between;
@@ -41,10 +47,32 @@ a:hover {
   opacity: 0.8;
 }
 
+.main-container {
+  display: flex;
+  margin-top: 75px;
+}
+
+.main-image {
+  height: 30rem;
+  width: 30rem;
+  grid-column-start: 2;
+  border-radius: 2.5%;
+  margin-left: 5rem;
+}
+
+.vl {
+  border-left: 4px solid #777;
+  height: 100px;
+  margin-left: 75px;
+  opacity: 0.2;
+}
+
+/* responsive styling */
 @media only screen and (max-width: 600px) {
   .nav-menu {
     display: block;
     margin-right: 2rem;
+    margin-left: 1rem;
   }
 
   .nav-links {
@@ -54,5 +82,17 @@ a:hover {
   .nav-links.open {
     display: block; /* Display the links when the "open" class is present */
   }
+
+  .nav-li {
+    margin-top: 0.5rem;
+  }
   
+  .main-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .main-image {
+    margin-left: 0;
+  }
 }
