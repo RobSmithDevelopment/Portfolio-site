@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Plus&display=swap');
+
 /* full page styling */
 * {
   box-sizing: border-box;
   margin: 0;
+  font-family: 'Gentium Book Plus', serif;
 }
 
 body {
@@ -46,7 +49,7 @@ a {
 a:hover {
   opacity: 0.8;
 }
-
+/* Home (main) page section */
 .main-container {
   display: flex;
   margin-top: 75px;
@@ -60,9 +63,29 @@ a:hover {
   margin-left: 5rem;
 }
 
+.main-text {
+  margin-left: 50px;
+  padding-top: 75px;
+}
+
+.main-text-h1 {
+  font-size: 3rem;
+}
+
+.main-text-h2 {
+  font-size: 2rem;
+}
+
+.main-text-button {
+  font-size: 2rem;
+  cursor: pointer;
+  margin-top: 10px;
+  padding: 25px;
+}
+
 .vl {
   border-left: 4px solid #777;
-  height: 100px;
+  height: 500px;
   margin-left: 75px;
   opacity: 0.2;
 }
@@ -94,5 +117,14 @@ a:hover {
 
   .main-image {
     margin-left: 0;
+  }
+
+  .vl {
+    border-bottom: 4px solid #777;
+    height: 1px;
+    width: 400px;
+    margin-left: 50px;
+    margin-top: 50px;
+    opacity: 0.2;
   }
 }
