@@ -78,6 +78,7 @@ a:hover {
 
 .main-text-button {
   color: black;
+  background-color:#999;
   font-size: 2rem;
   cursor: pointer;
   margin-top: 20px;
@@ -89,6 +90,15 @@ a:hover {
   vertical-align: middle;
 }
 
+.main-icons {
+  margin-top: 25px;
+  margin-left: 100px;
+}
+
+.main-icons-links {
+  cursor: pointer;
+}
+
 .vl {
   border-left: 4px solid #777;
   height: 500px;
@@ -97,11 +107,13 @@ a:hover {
 }
 
 /* responsive styling */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 900px) {
+  
+  
   .nav-menu {
     display: block;
     margin-right: 2rem;
-    margin-left: 1rem;
+    margin-left: 2rem;
   }
 
   .nav-links {
@@ -119,10 +131,17 @@ a:hover {
   .main-container {
     display: flex;
     flex-direction: column;
+    text-align: center;
+    margin-top: 25px;
+    min-width: 400px;
   }
 
-  .main-image {
-    margin-left: 0;
+  .main-arrow {
+    display: none;
+  }
+
+  .main-icons {
+    margin-left: 15px;
   }
 
   .vl {
