@@ -14,7 +14,6 @@ body {
 /* navbar styling */
 .nav-container {
   display: flex;
-  justify-content: space-between;
   align-items: center;
   color: #777;
   padding: 1rem;
@@ -84,6 +83,11 @@ a:hover {
   margin-top: 20px;
   padding: 25px;
 }
+
+.main-text-link {
+  color: black;
+}
+
 /* arrow icon from icons8:  https://icons8.com/icon/U7QCbaJeSJ1W/right-arrow */
 .main-arrow {
   margin-left: 10px;
@@ -92,7 +96,9 @@ a:hover {
 
 .main-icons {
   margin-top: 25px;
-  margin-left: 100px;
+  margin-right: 75px;
+  display: flex;
+  justify-content: center;
 }
 
 .main-icons-links {
@@ -106,10 +112,47 @@ a:hover {
   opacity: 0.2;
 }
 
+@media only screen and (max-width: 700px) {
+  .main-image {
+    margin-left: 0px;
+    min-width: 100%;
+    height: 100%;
+  }
+  
+  .main-arrow {
+    display: none;
+  }
+
+  .main-icons {
+    display: flex;
+    margin-right: 0px;
+  }
+
+  .main-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 25px;
+    min-width: 450px;
+  }
+
+  .main-text {
+    margin-right: 2rem;
+  }
+
+  .vl {
+    border-bottom: 4px solid #777;
+    height: 1px;
+    width: 90%;
+    margin-left: 25px;
+    margin-top: 50px;
+    opacity: 0.2;
+  }
+
+}
+
 /* responsive styling */
-@media only screen and (max-width: 900px) {
-  
-  
+@media only screen and (max-width: 500px) {
   .nav-menu {
     display: block;
     margin-right: 2rem;
@@ -127,29 +170,14 @@ a:hover {
   .nav-li {
     margin-top: 0.5rem;
   }
-  
-  .main-container {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    margin-top: 25px;
-    min-width: 400px;
-  }
-
-  .main-arrow {
-    display: none;
-  }
 
   .main-icons {
-    margin-left: 15px;
+    margin-left: 5px;
+    justify-content: center;
   }
 
-  .vl {
-    border-bottom: 4px solid #777;
-    height: 1px;
-    width: 400px;
-    margin-left: 50px;
-    margin-top: 50px;
-    opacity: 0.2;
+  .main-text-button {
+    margin-right: 1rem;
   }
+
 }

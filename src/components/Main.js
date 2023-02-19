@@ -14,12 +14,12 @@ const Main = () => {
             <div className="main-text">
                 <h1 className="main-text-h1">Hi, I'm Robert Smith!</h1>
                 <h2 className="main-text-h2">Junior Frontend Developer</h2>
-                <button className="main-text-button"><Link to="/work" className="main-text-button">See My Projects <img src={arrow} className="main-arrow"></img></Link></button>
+                <button className="main-text-button"><Link className="main-text-link" to="/work">See My Projects <img src={arrow} className="main-arrow"></img></Link></button>
                  {/* icons by Icons8 https://icons8.com */}
                 <div className="main-icons"> 
                     <a href="https://github.com/RobSmithDevelopment"><img className="main-icons-links" src={github}></img></a> 
-                    <a href="mailto:roba.smith@hotmail.com"><img className="main-icons-links" src={email}></img></a> 
-                    <a><img className="main-icons-links" src={linkedin}></img></a>
+                    <a href="mailto:roba.smith@hotmail.com "><img className="main-icons-links" src={email}></img></a> 
+                    <a href="https://www.linkedin.com/in/robert-smith-62928b214/"><img className="main-icons-links" src={linkedin}></img></a>
                 </div>
             </div>
         </div>
