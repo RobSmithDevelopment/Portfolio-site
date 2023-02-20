@@ -52,6 +52,18 @@ a:hover {
 .main-container {
   display: flex;
   margin-top: 75px;
+  animation: fadeInAnimation ease 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+  }
 }
 
 .main-image {
@@ -155,6 +167,7 @@ a:hover {
 @media only screen and (max-width: 500px) {
   .nav-menu {
     display: block;
+    cursor: pointer;
     margin-right: 2rem;
     margin-left: 2rem;
   }
