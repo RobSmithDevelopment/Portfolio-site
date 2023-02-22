@@ -90,6 +90,7 @@ a:hover {
   border-radius: 2.5%;
   margin-left: 5rem;
   margin-top: 10px;
+  filter: drop-shadow(-10px -10px 10px black);
 }
 
 .main-text {
