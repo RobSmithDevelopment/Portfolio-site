@@ -147,7 +147,7 @@ a:hover {
 
 .about-container {
   display: grid;
-  margin-top: 25px;
+  margin-top: 15px;
   grid-template-rows: 175px 1fr;
   grid-template-columns: 1fr 1fr 1fr;
 }
