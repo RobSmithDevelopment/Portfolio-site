@@ -11,7 +11,7 @@ body {
   height: 100%;
   width: 100%;
   background-color: #013A6B;
-  background: -webkit-linear-gradient(30deg, #013A6B 60%, #004E95 40%) no-repeat center center fixed;
+  background: -webkit-linear-gradient(30deg, #013A6B 70%, #004E95 30%) no-repeat center center fixed;
   min-width: 800px;
 }
 /* navbar styling */
@@ -154,7 +154,19 @@ a:hover {
 .about-container img {
   width: 100px;
   height: 100px;
+  animation: fadeInAnimation ease 2s;
 }
+
+.about-icons {
+  display: flex;
+  margin-top: 100px;
+  padding-bottom: 25px;
+  border-bottom: 4px solid rgba(0, 0, 0, 0.2);
+  
+}
+
+
+
 /* responsive stylings */
 @media only screen and (max-width: 768px) {
   .main-image {
@@ -185,7 +197,7 @@ a:hover {
   }
 
   .vl {
-    border-bottom: 4px solid #777;
+    border-bottom: 4px solid black;
     height: 1px;
     width: 90%;
     margin-left: 25px;

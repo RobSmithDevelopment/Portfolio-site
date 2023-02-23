@@ -10,13 +10,18 @@ const About = () => {
     return (
        <div className="about-container">
             <div className="about-icons">
-                <img src={HTML}></img>
-                <img src={CSS}></img>
-                <img src={JS}></img>
-                <img src={REACT}></img>
-                <img src={Node}></img>
-                <img src={Sass}></img>
-            </div> 
+                <div><img src={HTML}></img></div>
+                <div><img src={CSS}></img></div>
+                <div><img src={JS}></img></div>
+                <div><img src={REACT}></img></div>
+                <div><img src={Node}></img></div>
+                <div><img src={Sass}></img></div>
+            </div>
+            
+            
+
+            
+
             <div className="about-text">
 
             </div>
