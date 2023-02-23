@@ -143,6 +143,19 @@ a:hover {
   opacity: 0.2;
 }
 
+/* About section styling */
+
+.about-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.about-container img {
+  width: 100px;
+  height: 100px;
+}
+/* responsive stylings */
 @media only screen and (max-width: 768px) {
   .main-image {
     margin-left: 0px;
