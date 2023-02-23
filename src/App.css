@@ -146,9 +146,10 @@ a:hover {
 /* About section styling */
 
 .about-container {
-  display: flex;
-  justify-content: center;
-  margin-top: 100px;
+  display: grid;
+  margin-top: 25px;
+  grid-template-rows: 175px 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 .about-container img {
@@ -159,13 +160,23 @@ a:hover {
 
 .about-icons {
   display: flex;
-  margin-top: 100px;
+  justify-content: center;
+  grid-column-start: 2;
+  grid-column-end: 3;
   padding-bottom: 25px;
+  text-align: center;
+  font-size: 1.4rem;
   border-bottom: 4px solid rgba(0, 0, 0, 0.2);
-  
 }
 
-
+.about-text {
+  font-size: 1.5rem;
+  margin-top: 30px;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
 
 /* responsive stylings */
 @media only screen and (max-width: 768px) {

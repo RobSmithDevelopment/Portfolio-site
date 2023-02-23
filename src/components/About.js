@@ -9,22 +9,40 @@ import Sass from '../images/Sass.png';
 const About = () => {
     return (
        <div className="about-container">
-            <div className="about-icons">
-                <div><img src={HTML}></img></div>
-                <div><img src={CSS}></img></div>
-                <div><img src={JS}></img></div>
-                <div><img src={REACT}></img></div>
-                <div><img src={Node}></img></div>
-                <div><img src={Sass}></img></div>
+        
+        <div className="about-icons">
+            <div>
+                <img src={HTML}></img>
+                <h5>HTML</h5>
             </div>
-            
-            
-
-            
-
-            <div className="about-text">
-
+            <div>
+                <img src={CSS}></img>
+                <h5>CSS</h5>
             </div>
+            <div>
+                <img src={JS}></img>
+                <h5>Javascript</h5>
+            </div>
+            <div>
+                <img src={REACT}></img>
+                <h5>React</h5>
+            </div>
+            <div>
+                <img src={Node}></img>
+                <h5>NodeJS</h5>
+            </div>
+            <div>
+                <img src={Sass}></img>
+                <h5>Sass</h5>
+            </div>
+        </div>
+
+        <div className="about-text">
+            <p>Hi there! My name is Robert Smith, and I am a front-end developer. My passion for web development began when a friend offered to show me some basic coding. As I learned more about the field, I realized that front-end development perfectly blends my love for visual creativity with my logical and analytical thinking.
+            After self-teaching for a short while, I decided to pursue a more formal education in web development. I enrolled in a scholarship Department of Education web development bootcamp, where I honed my skills in HTML, CSS, and JavaScript. I graduated from the program with an average grade of 100%.
+            Now, I am eager to embark on my first professional opportunity in front-end development. I am excited to bring my creativity and technical expertise to a team that values innovation, collaboration, and excellence. Let's build beautiful and functional websites together!</p> 
+        </div>
+
        </div>
     )
 }
