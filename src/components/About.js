@@ -38,9 +38,9 @@ const About = () => {
         </div>
 
         <div className="about-text">
-            <p>Hi there! My name is Robert Smith, and I am a front-end developer. My passion for web development began when a friend offered to show me some basic coding. As I learned more about the field, I realized that front-end development perfectly blends my love for visual creativity with my logical and analytical thinking.
-            After self-teaching for a short while, I decided to pursue a more formal education in web development. I enrolled in a scholarship Department of Education web development bootcamp, where I honed my skills in HTML, CSS, JavaScript, NodeJS and React. I graduated from the program with an average grade of 100%.
-            Now, I am eager to embark on my first professional opportunity in front-end development. I am excited to bring my creativity, technical knowledge and passion for learning and personal growth to a team that values collaboration, hard work and fun! Let's build beautiful and functional websites together!</p> 
+            <p>Hi there! I'm<b> Robert, and I am a front-end developer</b>. My passion for web development began when a friend offered to show me some basic coding. As I learned more about the field, I realized that front-end development perfectly blends my love for visual creativity with my logical and analytical thinking.
+            After self-teaching for a short while, I decided to pursue a more formal education in web development. I enrolled in a <b>scholarship Department of Education web development bootcamp</b>, where I honed my skills in <b>HTML, CSS, JavaScript, NodeJS and React.</b> I graduated from the program with an <b>average grade of 100%. </b>
+            Now, I am eager to embark on my first professional opportunity in front-end development. I am excited to bring my creativity, technical knowledge and passion for learning and personal growth to a team that values collaboration, hard work and fun! <b>Let's build beautiful and functional websites together!</b></p> 
         </div>
 
        </div>
