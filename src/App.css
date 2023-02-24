@@ -8,10 +8,9 @@
 }
 
 body {
-  height: 100%;
-  width: 100%;
   background-color: #013A6B;
-  background: -webkit-linear-gradient(30deg, #2BAE66FF 70%, #FCF6F5FF 30%) no-repeat center center fixed;
+  background-image: -webkit-linear-gradient(30deg, #2BAE66FF 70%, #FCF6F5FF 30%);
+  background-attachment: fixed;
   min-width: 800px;
 }
 /* navbar styling */
