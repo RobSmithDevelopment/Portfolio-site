@@ -146,7 +146,7 @@ a:hover {
 
 .about-container {
   display: grid;
-  margin-top: 15px;
+  margin-top: 25px;
   grid-template-rows: 175px 1fr;
   grid-template-columns: 1fr 1fr 1fr;
 }
@@ -203,7 +203,7 @@ a:hover {
     display: flex;
     flex-direction: column;
     text-align: center;
-    margin-top: 25px;
+    margin-top: 100px;
     min-width: 450px;
   }
 
@@ -224,6 +224,16 @@ a:hover {
 
 /* responsive styling */
 @media only screen and (max-width: 500px) {
+
+  body {
+    background-image: none;
+    background-color: #2BAE66FF;
+  }
+
+  .nav-container {
+    background-color: #FCF6F5FF;
+  }
+
   .nav-menu {
     display: block;
     cursor: pointer;
@@ -249,6 +259,10 @@ a:hover {
 
   .main-text-button {
     margin-right: 1rem;
+  }
+
+  .about-container {
+    margin-top: 150px;
   }
 
 }
