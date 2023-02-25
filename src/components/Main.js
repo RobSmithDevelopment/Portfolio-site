@@ -12,7 +12,7 @@ const Main = () => {
             <img className="main-image" src={me}></img>
             <div className="vl"></div>
             <div className="main-text">
-                <h1 className="main-text-h1">Hi, I'm Robert Smith!</h1>
+                <h1 className="main-text-h1">Hi, I'm <span>Robert Smith!</span></h1>
                 <h2 className="main-text-h2">Junior Frontend Developer</h2>
                 <button className="main-text-button"><Link className="main-text-link" to="/work">See My Projects <img src={arrow} className="main-arrow"></img></Link></button>
                  {/* icons by Icons8 https://icons8.com */}
