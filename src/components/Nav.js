@@ -13,7 +13,7 @@ const Nav = () => {
 
     return (
       <nav className="nav-container">
-            <img className="nav-logo" src={logo}></img>
+            <Link to="/"><img className="nav-logo" src={logo}></img></Link>
 
             <ul className={`nav-links ${isMenuOpen ? 'open' : ''}`}>
                 <li className="nav-li"><Link to="/">Home</Link></li>

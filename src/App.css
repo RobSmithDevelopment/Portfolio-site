@@ -249,20 +249,47 @@ span {
   .nav-menu {
     display: block;
     cursor: pointer;
-    margin-right: 2rem;
-    margin-left: 2rem;
+    padding-left: 5rem;
   }
 
   .nav-links {
-    display: none; /* Hide the links by default */
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.5rem;
+    border: 3px black solid;
+    visibility: hidden;
+    position: absolute;
+    top: 0;
+    width: 40%;
+    min-width: 300px;
+    right: -200px; 
+    background-color: #fff;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    transition: transform 0.3s ease-out;
+    transform: translateX(100%);
+    transform: translateY(-200px);
   }
   
   .nav-links.open {
-    display: flex; /* Display the links when the "open" class is present */
+    visibility: visible;
+    transform: translateX(0); 
+    left: 0;
+    height: 250px;
+    background-color: #FD936b;
+    padding-bottom: 50px;
+  }
+
+  .nav-li:hover {
+    width: 50%;
+    text-align: center;
+    cursor: pointer;
   }
 
   .nav-li {
     margin-top: 0.5rem;
+    background-image: linear-gradient(black 0 0);
   }
 
   .main-icons {
