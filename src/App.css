@@ -194,6 +194,7 @@ span {
   display: flex;
   flex-wrap: wrap;
   padding: 100px 250px;
+  animation: fadeInAnimation ease 2s;
 }
 
 .work-title {
@@ -224,7 +225,9 @@ span {
 }
 
 .card-description {
-  margin-bottom: 20px;
+  margin-bottom: 25px;
+  padding-left: 15px;
+  padding-right: 20px;
 }
 
 .card-content {
