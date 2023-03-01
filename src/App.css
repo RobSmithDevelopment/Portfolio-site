@@ -192,6 +192,7 @@ span {
 
 .work-container {
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
   padding: 100px 250px;
   animation: fadeInAnimation ease 2s;
@@ -203,8 +204,10 @@ span {
 
 .card {
   margin-right: 20px;
+  margin-bottom: 20px;
   width: 100%;
   max-width: 500px;
+  min-width: 500px;
   background-color: #fff;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -222,6 +225,7 @@ span {
 
 .card-title {
   margin-bottom: 5px;
+  color: #FD936D;
 }
 
 .card-description {
@@ -241,6 +245,10 @@ span {
   color: white;
   padding: 10px;
   border-radius: 30px;
+}
+
+.card-link:hover {
+  color: #FD936D;
 }
 
 /* responsive stylings */
