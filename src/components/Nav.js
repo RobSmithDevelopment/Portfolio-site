@@ -8,7 +8,6 @@ const Nav = () => {
       
     function handleMenuClick() {
         setIsMenuOpen(!isMenuOpen);
-        console.log("hello!");
     }
 
     return (
