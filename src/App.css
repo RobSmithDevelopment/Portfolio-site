@@ -120,6 +120,10 @@ span {
   padding: 25px;
 }
 
+.main-text-button:hover {
+  opacity: 0.7;
+}
+
 .main-text-link {
   color: black;
 }
@@ -249,6 +253,7 @@ span {
 
 .card-link:hover {
   color: #FD936D;
+  opacity: 1;
 }
 
 /* responsive stylings */
