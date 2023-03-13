@@ -249,7 +249,6 @@ span {
   background-color: black;
   color: white;
   padding: 10px;
-  border-radius: 30px;
 }
 
 .card-link:hover {
@@ -261,6 +260,50 @@ span {
 
 .contact-container {
   text-align: center;
+  font-size: 1.5rem;
+}
+
+form {
+  max-width: 500px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+  margin-bottom: 100px;
+  margin-top: 20px;
+  animation: fadeInAnimation ease 2s;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.contact-input,
+textarea {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #000;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+textarea {
+  height: 175px;
+}
+
+.contact-button {
+  background-color: #000;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.contact-button:hover {
+  color: #FD936D;
+  opacity: 1;
 }
 
 /* responsive stylings */
