@@ -157,6 +157,7 @@ span {
 .about-container {
   display: grid;
   margin-top: 25px;
+  margin-bottom: 75px;
   grid-template-rows: 175px 1fr;
   grid-template-columns: 1fr 1fr 1fr;
 }
@@ -254,6 +255,12 @@ span {
 .card-link:hover {
   color: #FD936D;
   opacity: 1;
+}
+
+/* Contact page */
+
+.contact-container {
+  text-align: center;
 }
 
 /* responsive stylings */

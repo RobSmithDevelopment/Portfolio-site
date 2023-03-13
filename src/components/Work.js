@@ -12,10 +12,10 @@ const projects = [
   },
   {
     id: 2,
-    title: 'Interest Calculator',
-    imageUrl: 'https://scontent.flba3-2.fna.fbcdn.net/v/t1.15752-9/333189137_169027725925639_3923187554255797248_n.png?_nc_cat=111&ccb=1-7&_nc_sid=ae9488&_nc_ohc=fzgqFH2cHB8AX-_96By&_nc_ht=scontent.flba3-2.fna&oh=03_AdTpBtjPUOb3fnqbZYdbsF0ozl4RZS52iV2hCYg-cpdkyQ&oe=6434A377',
-    description: 'Calculator created for a bootcamp project, using react and redux. You can deposit an amount to the calculator, subtract a given amount, add interest of 5% and incur charges, subtracting 15%.',
-    linkUrl: 'https://example.com',
+    title: 'Weather App',
+    imageUrl: 'https://scontent.flba3-1.fna.fbcdn.net/v/t1.15752-9/333180622_917392196182721_4262620517518875375_n.png?_nc_cat=103&ccb=1-7&_nc_sid=ae9488&_nc_ohc=A901bTaROwoAX8nzJe7&_nc_ht=scontent.flba3-1.fna&oh=03_AdRkGEto7LMUOfQe3IIfBA67atxNxaqGxNONUa5tgrcm6g&oe=6436B862',
+    description: 'Weather app created using HTML, CSS and Javascript and utilising api calls. This application will take a valid place name and return the temperature, the current weather state with an icon, will tell you the wind speed and the humidity, as well as changing the background of the page to a relevant picture to the location.',
+    linkUrl: 'http://weather.robertsmithdevelopment.co.uk/',
     linkText: 'View Project',
   },
   {
